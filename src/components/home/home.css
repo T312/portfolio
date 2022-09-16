@@ -1,0 +1,197 @@
+.home {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro {
+  max-width: 540px;
+  text-align: center;
+  z-index: 100000000000000000000000;
+}
+
+.home__img {
+  margin-bottom: 1.5rem;
+  height: 10rem;
+}
+.home__name {
+  font-size: var(--h1-font-size);
+  font-weight: var(--font-bold);
+  margin-bottom: 0.5rem;
+}
+.home__socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 1.75rem;
+  margin: 1.5rem;
+}
+.home__social-link {
+  color: var(--title-color);
+  font-size: 1.3rem;
+  transition: 0.3s;
+}
+.home__social-link:hover {
+  color: hsl(43, 100%, 68%);
+}
+
+.scroll__down {
+  position: absolute;
+  bottom: 2.5rem;
+  left: 0;
+  width: 100%;
+}
+
+.home__scroll-name {
+  font-size: var(--small-font-size);
+}
+.mouse {
+  border: 2px solid var(--text-color);
+  display: block;
+  margin: auto;
+  height: 1.6rem;
+  width: 1.25rem;
+  margin-top: 0.75rem;
+  border-radius: 1rem;
+  position: relative;
+}
+@keyframes ani-mouse {
+  0% {
+    top: 29%;
+  }
+  15% {
+    top: 50%;
+  }
+  50% {
+    top: 50%;
+  }
+  100% {
+    top: 29%;
+  }
+}
+.wheel {
+  background-color: var(--title-color);
+  border-radius: 100%;
+  width: 0.25rem;
+  height: 0.25rem;
+  position: absolute;
+  top: 0.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: ani-mouse 2s linear infinite;
+}
+
+.shapes {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+.shape {
+  position: absolute;
+}
+.s1 {
+  left: 50%;
+  top: 10%;
+  scale: 20%;
+}
+.s2 {
+  left: 72%;
+  right: -33%;
+  scale: 28%;
+  transform: rotateY(182deg);
+}
+.s3 {
+  left: 25%;
+  top: 40%;
+  scale: 20%;
+}
+.s4 {
+  right: 74%;
+  top: 71%;
+  left: 23%;
+  scale: 317%;
+}
+.s5 {
+  right: 63%;
+  top: -6%;
+  scale: 20%;
+}
+
+.s6 {
+  left: 67%;
+  bottom: 69%;
+  scale: 42%;
+}
+.s7 {
+  left: 90%;
+  bottom: 34%;
+  scale: 70%;
+}
+.s8 {
+  right: 45%;
+  bottom: -12%;
+  left: -47%;
+  scale: 9%;
+}
+.s9 {
+  right: 35%;
+  bottom: 11%;
+  left: -26%;
+  scale: 13%;
+}
+.s10 {
+  right: -28%;
+  bottom: 2%;
+  left: -26%;
+  scale: 5%;
+}
+.s11 {
+  left: 21%;
+  top: -5%;
+  right: -86%;
+  scale: 5%;
+}
+.s12 {
+  left: -98%;
+  right: 12%;
+  top: -76%;
+  scale: 6%;
+}
+.s13 {
+  left: -89%;
+  top: -22%;
+  scale: 6%;
+}
+.s14 {
+  right: 90%;
+  top: 45%;
+  left: -35%;
+  scale: 43%;
+}
+.s15 {
+  left: -95%;
+  right: 32%;
+  top: -82%;
+  scale: 7%;
+}
+.s16 {
+  right: 90%;
+  top: 8%;
+  left: -53%;
+  scale: 18%;
+}
+.s17 {
+  right: -103%;
+  top: -108%;
+  scale: 5%;
+}
+.s18 {
+  right: -138%;
+  top: -73%;
+  scale: 5%;
+  transform: rotateZ(45deg);
+}

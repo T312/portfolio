@@ -1,0 +1,43 @@
+.aside {
+  position: fixed;
+  left: 0;
+  top: 0;
+  background: var(--body-color);
+  border-right: 1px solid rgba(0, 0, 0, 0.05);
+  padding: 2.5rem;
+  width: 100px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  z-index: 10;
+}
+.nav__logo {
+  scale: 300%;
+}
+.nav__item .nav__link i {
+  margin-top: 2.5rem;
+}
+.nav__link {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  transition: 0.3s;
+}
+.nav__link:hover {
+  color: hsl(43, 100%, 68%);
+}
+
+.nav__link {
+  font-size: 1.5rem;
+  color: var(--title-color);
+  font-weight: var(--font-bold);
+}
+
+.copyright {
+  color: hsl(245, 15%, 65%);
+  position: absolute;
+  font-size: var(--small-font-size);
+  transform: rotate(-180deg);
+  writing-mode: vertical-rl;
+}
