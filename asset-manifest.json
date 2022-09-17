@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.bc5d8501.css",
-    "main.js": "/portfolio/static/js/main.fa4d862d.js",
+    "main.js": "/portfolio/static/js/main.efa01f07.js",
     "static/media/web-shop-clo.png": "/portfolio/static/media/web-shop-clo.d8c216b1df4a30866f25.png",
     "static/media/avt3.jpg": "/portfolio/static/media/avt3.0612942c463eefc37025.jpg",
     "static/media/pokemon-tut.png": "/portfolio/static/media/pokemon-tut.d6c2730df664b4ca5621.png",
@@ -12,10 +12,10 @@
     "static/media/avatar-3.svg": "/portfolio/static/media/avatar-3.7c4b2e417a3a5128a36555638691db8f.svg",
     "index.html": "/portfolio/index.html",
     "main.bc5d8501.css.map": "/portfolio/static/css/main.bc5d8501.css.map",
-    "main.fa4d862d.js.map": "/portfolio/static/js/main.fa4d862d.js.map"
+    "main.efa01f07.js.map": "/portfolio/static/js/main.efa01f07.js.map"
   },
   "entrypoints": [
     "static/css/main.bc5d8501.css",
-    "static/js/main.fa4d862d.js"
+    "static/js/main.efa01f07.js"
   ]
 }
