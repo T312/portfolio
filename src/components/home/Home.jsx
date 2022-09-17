@@ -4,7 +4,7 @@ import HeaderSocials from "./HeaderSocials";
 import Me from "../../assets/avatar-3.svg";
 import ScrollDown from "./ScrollDown";
 import Shapes from "./Shapes";
-const Home = () => {
+export const Home = () => {
   return (
     <section className="home container">
       <div className="intro">

@@ -3,6 +3,7 @@
   align-items: center;
   column-gap: 1.875rem;
   margin-bottom: 2.5rem;
+  flex-wrap: wrap;
 }
 .work__item {
   cursor: pointer;
@@ -25,10 +26,10 @@
   box-shadow: var(--shadow);
 }
 .work__card :hover .work__mask {
-  opacity: 0.9;
+  opacity: 0.8;
 }
 .work__mask {
-  background: #6c6ce5;
+  background: #82dfa3;
   position: absolute;
   left: 0;
   top: 0;
@@ -85,4 +86,32 @@
 .work__card:hover .work__category {
   opacity: 1;
   transform: translateY(0);
+}
+@media screen and (max-width: 1024px) {
+  .work__filters {
+    justify-content: center;
+  }
+  .work__container {
+    grid-template-columns: repeat(2, 330px);
+    justify-content: center;
+    row-gap: 1.875rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .work__container {
+    grid-template-columns: repeat(2, 270px);
+  }
+}
+@media screen and (max-width: 576px) {
+  .work__container {
+    grid-template-columns: 1fr;
+  }
+  .work__filters {
+    row-gap: 0.25rem;
+  }
+}
+@media screen and (max-width: 350px) {
+  .contact__container {
+    grid-template-columns: 250px;
+  }
 }

@@ -2,7 +2,7 @@ import React from "react";
 import Image1 from "../../assets/web-shop-clo.png";
 import Image2 from "../../assets/music-app.png";
 import Image3 from "../../assets/portfolio.png";
-import Image4 from "../../assets/avt.jpg";
+import Image4 from "../../assets/book.png";
 import Image5 from "../../assets/pokemon-tut.png";
 
 const Menu = [

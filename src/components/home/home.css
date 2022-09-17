@@ -133,7 +133,7 @@
 }
 .s8 {
   right: 45%;
-  bottom: -12%;
+  bottom: -28%;
   left: -47%;
   scale: 9%;
 }
@@ -150,8 +150,8 @@
   scale: 5%;
 }
 .s11 {
-  left: 21%;
-  top: -5%;
+  left: -5%;
+  top: -40%;
   right: -86%;
   scale: 5%;
 }
@@ -163,7 +163,7 @@
 }
 .s13 {
   left: -89%;
-  top: -22%;
+  top: -28%;
   scale: 6%;
 }
 .s14 {
@@ -185,8 +185,8 @@
   scale: 18%;
 }
 .s17 {
-  right: -103%;
-  top: -108%;
+  right: -109%;
+  top: -117%;
   scale: 5%;
 }
 .s18 {
@@ -194,4 +194,9 @@
   top: -73%;
   scale: 5%;
   transform: rotateZ(45deg);
+}
+@media screen and (max-width: 1024px) {
+  .home__social-link {
+    font-size: 1.125rem;
+  }
 }

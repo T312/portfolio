@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./portfolio.css";
 import Menu from "./Menu";
-const Portfolio = () => {
+export const Portfolio = () => {
   const [items, setItems] = useState(Menu);
   const filterItems = (categoryItem) => {
     const updateItems = Menu.filter((cur) => {
