@@ -19,7 +19,7 @@ export const Home = () => {
         </a>
         <ScrollDown />
       </div>
-      <Shapes />
+      {/* <Shapes /> */}
     </section>
   );
 };
